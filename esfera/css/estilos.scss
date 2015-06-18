@@ -1,0 +1,142 @@
+$color1: #181828;
+$color2: #dddddd;
+$color3: #242424;
+
+//Estilos Generales 
+
+body {
+    background: $color2;
+    color: $color3;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+// Header
+
+header {
+   background: rgb(24,24,40); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(24,24,40,1) 0%, rgba(57,55,61,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(24,24,40,1)), color-stop(100%,rgba(57,55,61,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(24,24,40,1) 0%,rgba(57,55,61,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(24,24,40,1) 0%,rgba(57,55,61,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(24,24,40,1) 0%,rgba(57,55,61,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(24,24,40,1) 0%,rgba(57,55,61,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181828', endColorstr='#39373d',GradientType=0 ); /* IE6-9 */
+   border-bottom: solid 6px #ff0000;
+}
+
+.logo {
+    padding: 20px 0px;
+}
+
+//Navbar
+
+.principal {
+    background: -moz-linear-gradient(top,  rgba(24,24,40,0.65) 0%, rgba(24,24,40,0) 10%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(24,24,40,0.65)), color-stop(10%,rgba(24,24,40,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(24,24,40,0.65) 0%,rgba(24,24,40,0) 10%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(24,24,40,0.65) 0%,rgba(24,24,40,0) 10%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(24,24,40,0.65) 0%,rgba(24,24,40,0) 10%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(24,24,40,0.65) 0%,rgba(24,24,40,0) 10%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6181828', endColorstr='#00181828',GradientType=0 ); /* IE6-9 */
+
+}
+
+.principal nav ul {
+    display:block;
+    text-align: center;
+}
+
+.principal nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.principal nav ul li a {
+    color: #242424;
+    text-decoration: none;
+    font-weight:600;
+}
+
+//Imagenes del contenido
+
+
+.principal img {
+    width: 100%;
+    padding-top: 60px;
+}
+
+//SECCION NOSOTROS
+
+.nosotros {
+    background: $color3;
+    color: #e6e6e6;
+    margin-top: 50px;
+}
+
+.nosotros h1 {
+    font-size: 3rem;
+    padding: 40px 0px 10px 0px;
+    border-bottom: solid 3px #5d5d5d;
+    margin: 0px;
+}
+
+.nosotros p {
+    text-align: justify;
+    font-size: .8rem;
+}
+
+.nosotros .nosimg {
+    width: 100%;
+    padding: 60px 0px 20px 0px;
+}
+
+.nosotros .nosfooter {
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.nosotros ul {
+    position:relative;
+    text-align: center;
+}
+
+.nosotros ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+//SERVICIOS
+
+.servicios {
+    padding-bottom: 30px;
+}
+
+.servicios img {
+    width: 100%;
+}
+
+.servicios h1 {
+    font-size: 3rem;
+    padding: 40px 0px 10px 0px;
+    margin: 0px;
+}
+
+.servicios p {
+    text-align: center;
+    padding: 0px 60px 30px 60px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.servicios .serv-titulo {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px;
+}
