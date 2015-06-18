@@ -14,7 +14,7 @@
     </header>
     <section class="principal">
         <div class="grupo">
-             <div class="caja total">
+             <div class="caja total menu">
                 <nav>
                     <ul>
                         <li><a href="#nosotros">Nosotros</a></li>
@@ -33,7 +33,7 @@
              </div>
         </div>
     </section>
-    <section class="nosotros" id="nosotros">
+    <section class="nosotros scroll-section" id="nosotros">
         <div class="grupo">
             <div class="caja total">
                 <h1>NOSOTROS</h1>
@@ -70,7 +70,7 @@ Cada día aumentamos nuestra experiencia.</p>
             </div>
         </div>
     </section>
-    <section class="servicios" id="servicios">
+    <section class="servicios scroll-section" id="servicios">
         <div class="grupo">
             <div class="caja total">
                 <h1>SERVICIOS</h1>
@@ -102,7 +102,7 @@ Cada día aumentamos nuestra experiencia.</p>
             </div>
         </div>
     </section>
-    <section class="portafolio" id="portafolio">
+    <section class="portafolio scroll-section" id="portafolio">
         <div class="grupo">
             <div class="caja total">
                 <h1>PORTAFOLIO</h1>
@@ -114,5 +114,22 @@ Cada día aumentamos nuestra experiencia.</p>
             </div>
         </div>
     </section>
+    
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            var altura = $('.menu').offset().top;
+
+            $(window).on('scroll', function(){
+                if ( $(window).scrollTop() > altura ){
+                    $('.menu').addClass('menu-fixed');
+                } else {
+                    $('.menu').removeClass('menu-fixed');
+                }
+            });
+
+        });
+    </script>
+    
 </body>
 </html>
