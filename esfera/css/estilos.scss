@@ -140,3 +140,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6181828', e
     font-weight: bold;
     padding: 0px;
 }
+
+//PORTAFOLIO
+
+.portafolio {
+    background: $color3;
+    color: #e6e6e6;
+    padding-bottom: 40px;
+}
+
+.portafolio h1 {
+    margin-bottom: 10px;
+}
+
+.portafolio p {
+    font-size: .9rem;
+    width: 80%;
+    float: left;
+}
+
+.portafolio a {
+    width: 20%;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #5d5d5d;
+    border: solid 1px #5d5d5d;
+    border-radius: 10px;
+}
+
+.portafolio img {
+    width: 100%;
+    padding: 40px 0px 20px 0px;
+}
