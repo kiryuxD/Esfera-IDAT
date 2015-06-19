@@ -188,3 +188,134 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6181828', e
     width: 100%;
     padding: 40px 0px 20px 0px;
 }
+
+// SECCION CLIENTES
+
+.clientes {
+    padding-bottom: 20px;
+}
+
+.clientes h1 {
+    margin-bottom: 10px;
+}
+
+.clientes ol {
+    padding-left: 20px;
+}
+
+.clientes ol li {
+    font-size: .7rem;
+}
+
+.clientes ol li a{
+    color: $color3;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.clientes ol li a:hover{
+    text-decoration: underline;
+}
+
+// SECCION CONTACTO
+
+.contacto {
+    background: $color3;
+    color: $color2;
+}
+
+.contacto h1 {
+    margin-bottom: 20px;
+}
+
+.contacto .contacto-info {
+    font-size: .8rem;
+    text-align: center;
+    border-bottom: solid 1px $color2;
+    margin: 0px 80px 20px 80px;
+    line-height: 2;
+}
+
+.contacto h3 {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.contacto ul {
+    padding-left: 0;
+}
+
+.contacto ul li {
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.contacto input {
+    color: $color3;
+    background: $color2;
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+}
+
+.contacto textarea {
+    border-radius: 5px;
+    color: $color3;
+    background: $color2;
+}
+
+.contacto button {
+    color: $color3;
+    background: $color2;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+// Suscripcion
+
+.contacto .suscripcion {
+    padding: 30px 0px;
+}
+
+.contacto .sus-email {
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+
+.contacto .sus-enviar {
+    width: 50%;
+    float:left;
+}
+
+// Sociales de contacto
+
+.contacto .social {
+    padding: 30px 0px;
+}
+
+.contacto .social ul {
+    display: block;
+    text-align: right;
+}
+
+.contacto .social ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.contacto .social ul li img {
+    width: 35px;
+}
+
+// Copyright
+
+.contacto .copy {
+    border-top: solid 1px $color2;
+    text-align: center;
+    font-size: .7rem;
+    padding: 40px 80px;
+}
