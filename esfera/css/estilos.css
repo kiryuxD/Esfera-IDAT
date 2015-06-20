@@ -305,4 +305,29 @@ header {
   font-size: .7rem;
   padding: 40px 80px; }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  /* line 328, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .portafolio p {
+    width: 100%; }
+  /* line 332, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .portafolio a {
+    width: 100%; }
+  /* line 337, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .contacto textarea {
+    width: 100%; }
+  /* line 341, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .contacto .suscripcion {
+    text-align: center; }
+  /* line 345, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .contacto .social ul {
+    text-align: center; } }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* line 352, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .contacto textarea {
+    width: 100%; }
+  /* line 356, C:/Users/Gleny/Documents/GitHub/Esfera/esfera/css/estilos.scss */
+  .contacto .suscripcion {
+    text-align: center; } }
+
 /*# sourceMappingURL=estilos.css.map */
